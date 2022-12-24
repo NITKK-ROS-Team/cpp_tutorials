@@ -55,3 +55,6 @@ nav:
     - 03_variable: 00_basic/03_variable/index.md
     - 04_operator: 00_basic/04_operator/index.md
     - 05_control: 00_basic/05_control/index.md
+  - class:
+    - 01_class: 01_class/01_about_class/index.md
+    - 02_constructor: 01_class/02_constructor/index.md
