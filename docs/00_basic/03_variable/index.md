@@ -16,50 +16,20 @@
 int main()
 {
     int data_a = 0;
+    printf("data_a = %d\n", data_a);
+    data_a = 1;
+    printf("data_a = %d\n", data_a);
     return 0;
 }
 ```
 
 変数の宣言には、型と変数名を指定します。また、初期値を指定することもできます。
 
+値の出力には、`printf` 関数を使用します。`printf` 関数は、文字列を出力します。文字列中に `%d` という文字列があると、その部分に変数の値を出力します。
+
 例えば、上記のコードでは `data_a` という変数を宣言しています。型は `int` で、初期値は `0` です。
 
-<br>
-
-## 出力
-
-現在の値を出力してみましょう。`printf` 関数を使用します。
-
-```cpp
-#include <cstdio>
-
-int main()
-{
-    int data_a = 0;
-    printf("data_a = %d\n", data_a);
-    return 0;
-}
-```
-
-`printf` 関数は、文字列を出力します。文字列中に `%d` という文字列があると、その部分に変数の値を出力します。
-
-<br>
-
-2つ以上の変数を出力する場合は、以下のようにします。
-
-```cpp
-#include <cstdio>
-
-int main()
-{
-    int data_a = 0;
-    int data_b = 1;
-    printf("data_a = %d, data_b = %d\n", data_a, data_b);
-    return 0;
-}
-```
-
-`%d` の部分には、カンマで区切って変数を指定します。この順番に出力されます。
+その後、`data_a`の値に `1` を代入しています。`printf` 関数で `data_a` の値を出力すると、`1` が出力されます。
 
 <br>
 
