@@ -1,0 +1,57 @@
+repo_url: https://github.com/NITKK-ROS-Team
+
+site_name: cpp tutorials Documentation
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+  palette:
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  language: ja
+  icon:
+    repo: fontawesome/brands/github
+
+
+extra:
+  font:
+    text: Roboto
+    code: Roboto Mono
+  version:
+    provider: mike
+
+plugins:
+  - search
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Tutorials: index.md
+  - basic:
+    - 01_about_cpp: 00_basic/01_about_cpp/index.md
+    - 02_hello_world: 00_basic/02_hello_world/index.md
+    - 03_variable: 00_basic/03_variable/index.md
+    - 04_operator: 00_basic/04_operator/index.md
+    - 05_control: 00_basic/05_control/index.md
