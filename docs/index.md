@@ -10,6 +10,7 @@ C++はC言語の拡張であり、C言語の機能をそのまま使えます。
 - [演算子](./00_basic/04_operator/index.md)
 - [制御構文](./00_basic/05_control/index.md)
 - [関数](./00_basic/06_function/index.md)
+- [配列](./00_basic/07_array/index.md)
 
 <br>
 

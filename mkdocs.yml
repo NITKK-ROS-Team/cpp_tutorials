@@ -55,6 +55,14 @@ nav:
     - 03_variable: 00_basic/03_variable/index.md
     - 04_operator: 00_basic/04_operator/index.md
     - 05_control: 00_basic/05_control/index.md
+    - 06_function: 00_basic/06_function/index.md
+    - 07_array: 00_basic/07_array/index.md
   - class:
     - 01_class: 01_class/01_about_class/index.md
     - 02_constructor: 01_class/02_constructor/index.md
+    - 03_destructor: 01_class/03_destructor/index.md
+    - 04_inheritance: 01_class/04_inheritance/index.md
+    - 05_virtual_function: 01_class/05_virtual_function/index.md
+    - 06_pure_virtual_function: 01_class/06_pure_virtual_function/index.md
+    - 07_overload: 01_class/07_overload/index.md
+    - 08_file_split: 01_class/08_file_split/index.md
