@@ -23,8 +23,8 @@ C++はオブジェクト指向プログラミング言語です。Classはオブ
 - [継承](./01_class/04_inheritance/index.md)
 - [仮想関数](./01_class/05_virtual_function/index.md)
 - [純粋仮想関数](./01_class/06_pure_virtual_function/index.md)
-- [オーバーライド](./01_class/07_override/index.md)
-- [オーバーロード](./01_class/08_overload/index.md)
+- [オーバーロード](./01_class/07_overload/index.md)
+- [ファイル分割](./01_class/08_file_split/index.md)
 
 <br>
 
