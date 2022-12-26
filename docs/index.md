@@ -1,5 +1,7 @@
 # C++チュートリアル
 
+[![publish-pages](https://github.com/NITKK-ROS-Team/cpp_tutorials/actions/workflows/main.yml/badge.svg)](https://github.com/NITKK-ROS-Team/cpp_tutorials/actions/workflows/main.yml)
+
 ## 基本
 
 C++はC言語の拡張であり、C言語の機能をそのまま使えます。
