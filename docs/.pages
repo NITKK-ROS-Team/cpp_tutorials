@@ -1,0 +1,6 @@
+nav:
+    - Tutorial: index.md
+    - basic: 00_basic
+    - class: 01_class
+    - memory: 02_memory
+    - cmake: 04_cmake
