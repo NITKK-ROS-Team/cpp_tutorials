@@ -41,7 +41,7 @@ C++では、スマートポインタというメモリ管理を自動化する�
 
 <br>
 
-## 標準ライブラリ (std)
+<!-- ## 標準ライブラリ (std)
 
 C++の標準ライブラリは、C言語の標準ライブラリとは別物です。
 
@@ -51,7 +51,7 @@ C++の標準ライブラリは、C言語の標準ライブラリとは別物で�
 - [std::unique_ptr](./03_std/09_unique_ptr/index.md)
 - [std::shared_ptr](./03_std/10_shared_ptr/index.md)
 - [std::function](./03_std/12_function/index.md)
-- [std::thread](./03_std/13_thread/index.md)
+- [std::thread](./03_std/13_thread/index.md) -->
 
 <br>
 
@@ -61,6 +61,6 @@ CMakeはC++のビルドツールです。
 
 - [CMakeとは](./04_cmake/01_about_cmake/index.md)
 - [CMakeLists.txtの作り方](./04_cmake/02_cmake_lists/index.md)
-- [CMakeのテクニック](./04_cmake/03_cmake_technique/index.md)
+<!-- - [CMakeのテクニック](./04_cmake/03_cmake_technique/index.md) -->
 
 <br>
