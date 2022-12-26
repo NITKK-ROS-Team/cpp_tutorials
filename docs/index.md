@@ -31,12 +31,10 @@ C++はオブジェクト指向プログラミング言語です。Classはオブ
 
 ## メモリ管理
 
-- [C++のメモリ管理](./02_memory/01_memory_management/index.md)
-- [ポインタ](./02_memory/02_pointer/index.md)
-- [参照](./02_memory/03_reference/index.md)
-- [newとdelete](./02_memory/04_new_delete/index.md)
-- [スマートポインタ](./02_memory/05_smart_pointer/index.md)
-- [メモリリーク](./02_memory/06_memory_leak/index.md)
+- [ポインタ](./02_memory/01_pointer/index.md)
+- [newとdelete](./02_memory/02_new_delete/index.md)
+- [スマートポインタ](./02_memory/03_smart_pointer/index.md)
+- [メモリリーク](./02_memory/04_memory_leak/index.md)
 
 <br>
 
