@@ -1,5 +1,5 @@
-site_name: Autoware Documentation
-site_url: https://autowarefoundation.github.io/autoware-documentation
+site_name: NITK.K ROS-Team cpp_tutorials
+site_url: https://github.com/NITKK-ROS-Team
 repo_url: https://github.com/NITKK-ROS-Team/cpp_tutorials
 edit_uri: https://github.com/NITKK-ROS-Team/cpp_tutorials/edit/main/docs/
 docs_dir: docs
