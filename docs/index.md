@@ -31,10 +31,13 @@ C++はオブジェクト指向プログラミング言語です。Classはオブ
 
 ## メモリ管理
 
+C/C++の理解で最も大変な概念がメモリ管理です。
+
+C++では、スマートポインタというメモリ管理を自動化する仕組みがあります。
+
 - [ポインタ](./02_memory/01_pointer/index.md)
 - [newとdelete](./02_memory/02_new_delete/index.md)
 - [スマートポインタ](./02_memory/03_smart_pointer/index.md)
-- [メモリリーク](./02_memory/04_memory_leak/index.md)
 
 <br>
 
