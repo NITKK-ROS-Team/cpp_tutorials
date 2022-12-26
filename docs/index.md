@@ -60,13 +60,7 @@ C++の標準ライブラリは、C言語の標準ライブラリとは別物で�
 CMakeはC++のビルドツールです。
 
 - [CMakeとは](./04_cmake/01_about_cmake/index.md)
-- [CMakeのインストール](./04_cmake/02_install_cmake/index.md)
-- [CMakeの使い方](./04_cmake/03_how_to_use_cmake/index.md)
-- [実行ファイルの生成](./04_cmake/04_generate_executable/index.md)
-- [ライブラリの生成](./04_cmake/05_generate_library/index.md)
-- [CMakeの変数](./04_cmake/06_cmake_variable/index.md)
-- [CMakeの関数](./04_cmake/07_cmake_function/index.md)
-- [CMakeのコマンド](./04_cmake/08_cmake_command/index.md)
-- [CMakeのモジュール](./04_cmake/09_cmake_module/index.md)
+- [CMakeLists.txtの作り方](./04_cmake/02_cmake_lists/index.md)
+- [CMakeのテクニック](./04_cmake/03_cmake_technique/index.md)
 
 <br>
