@@ -1,6 +1,10 @@
-repo_url: https://github.com/NITKK-ROS-Team
+site_name: Autoware Documentation
+site_url: https://autowarefoundation.github.io/autoware-documentation
+repo_url: https://github.com/NITKK-ROS-Team/cpp_tutorials
+edit_uri: https://github.com/NITKK-ROS-Team/cpp_tutorials/edit/main/docs/
+docs_dir: docs
+copyright: Copyright &copy; 2022 NITK.K ROS-Team
 
-site_name: cpp tutorials Documentation
 theme:
   name: material
   features:
@@ -11,6 +15,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
+  favicon: https://github.com/NITKK-ROS-Team.png
+  language: ja
   palette:
     - scheme: default
       primary: white
@@ -22,10 +28,6 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-  language: ja
-  icon:
-    repo: fontawesome/brands/github
-
 
 extra:
   font:
@@ -34,36 +36,51 @@ extra:
   version:
     provider: mike
 
+extra_css:
+  - assets/css/extra.css
+  - https://use.fontawesome.com/releases/v5.15.4/css/all.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 plugins:
+  - awesome-pages
+  - exclude:
+      regex:
+        - ^(?!(.*/)?assets/).*\.(?!(.*\.)?md|(.*\.)?svg|(.*\.)?png|(.*\.)?jpg).*$
+        - ^(.*/)?[^.]*$
+  - macros
+  - same-dir
   - search
 
 markdown_extensions:
   - abbr
   - admonition
   - attr_list
+  - codehilite:
+      guess_lang: false
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - fontawesome_markdown
+  - footnotes
+  - mdx_math
+  - mdx_truly_sane_lists:
+      nested_indent: 2
+  - plantuml_markdown:
+      server: http://www.plantuml.com/plantuml
+      format: svg
+  - pymdownx.arithmatex
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
-nav:
-  - Tutorials: index.md
-  - basic:
-    - 01_about_cpp: 00_basic/01_about_cpp/index.md
-    - 02_hello_world: 00_basic/02_hello_world/index.md
-    - 03_variable: 00_basic/03_variable/index.md
-    - 04_operator: 00_basic/04_operator/index.md
-    - 05_control: 00_basic/05_control/index.md
-    - 06_function: 00_basic/06_function/index.md
-    - 07_array: 00_basic/07_array/index.md
-  - class:
-    - 01_class: 01_class/01_about_class/index.md
-    - 02_constructor: 01_class/02_constructor/index.md
-    - 03_destructor: 01_class/03_destructor/index.md
-    - 04_inheritance: 01_class/04_inheritance/index.md
-    - 05_virtual_function: 01_class/05_virtual_function/index.md
-    - 06_pure_virtual_function: 01_class/06_pure_virtual_function/index.md
-    - 07_overload: 01_class/07_overload/index.md
-    - 08_file_split: 01_class/08_file_split/index.md
-  
+  - toc:
+      permalink: "#"
+      toc_depth: 3
