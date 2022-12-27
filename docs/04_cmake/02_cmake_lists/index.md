@@ -15,7 +15,7 @@ CMakeLists.txtの基本的な書き方について、用途別に紹介します
 | なし | 通常のメッセージ | 通常のメッセージとして表示 | ○ |
 | STATUS | ステータスメッセージ | `--` で始まるメッセージとして表示 | ○ |
 | WARNING | 警告メッセージ | `CMake Warning` で始まるメッセージとして表示 | ○ |
-| ERROR | エラーメッセージ | `CMake Error` で始まるメッセージとして表示 | × |
+| ERROR | エラーメッセージ | `CMake Error` で始まるメッセージとして表示、ただし、ビルドは継続される | × |
 | FATAL_ERROR | 致命的なエラーメッセージ | `CMake Error` で始まるメッセージとして表示し、処理を中断 | × |
 
 ```cmake
@@ -236,7 +236,7 @@ target_link_libraries(${HOGE} ${FUGA})
 
 ```cpp
 #pragma once
-#include "cstdio"
+#include <cstdio>
 
 void fuga(void);
 ```
