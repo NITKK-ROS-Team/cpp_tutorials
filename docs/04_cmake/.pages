@@ -1,0 +1,3 @@
+nav:
+    - About cmake: 01_about_cmake
+    - cmake lists: 02_cmake_lists
