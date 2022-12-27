@@ -2,7 +2,9 @@
 
 プログラムの最初の一歩は、Hello Worldと表示するプログラムです。
 
-`code ./hello_world.cpp`
+任意のエディタで以下のファイルを保存してください。
+
+ここでは、`hello_world.cpp`という名前で保存します。
 
 ```cpp
 #include <cstudio>
