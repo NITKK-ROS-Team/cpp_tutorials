@@ -3,4 +3,6 @@ nav:
     - basic: 00_basic
     - class: 01_class
     - memory: 02_memory
+    - thread: 03_thread
     - cmake: 04_cmake
+    - std library: 05_stdlib
