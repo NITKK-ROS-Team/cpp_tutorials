@@ -6,3 +6,4 @@ nav:
     - thread: 03_thread
     - cmake: 04_cmake
     - std library: 05_stdlib
+    - Build tools: build_tools
